@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background-color: rgb(35,35,35);
+    width: 100%;
+}
+
+ 
+.main .box{
+    height: 644px;
+    width: 100%;
+    opacity:0.6;
+    position: absolute;
+    top:0;
+    background-color: black;
+ 
+} 
+
+.main{
+    background-image: url(netflixhero.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.netflix{
+    padding-top: 100px;
+    padding-left: 2rem;
+    opacity: 1;
+    position: relative;
+   z-index: 100;
+}
+ 
+
+.head{
+    margin-top: -9rem;
+    height:70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.language{
+   height:32px ;
+    width: 120px; 
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: medium;
+    position: relative;
+   z-index: 100;
+    
+}
+
+.sign{
+       height: 32px;
+       width: 77px;
+       text-align: center;
+    color: white;
+    background-color: rgb(229, 9, 20);
+    font-weight: 500;
+    font-size:1em;
+    border: 0.5px solid rgb(229, 9, 20);
+    border-radius: 4px;
+    margin-left: 1.25rem;
+    position: relative;
+   z-index: 100;
+    
+}
+
+.right{
+    width:83%; 
+    padding-top: 100px;
+    display: flex;
+    justify-content: end;
+}
+
+.hero{
+    text-align: center;
+    height: 320px;
+    width: 80%;
+    color: white;
+   position: relative;
+   z-index: 100;
+}
+
+.hero1{
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+
+}
+
+.hero2{
+    padding-top: 1.5rem;
+}
+.hero3{
+    padding-top: 2rem;
+}
+
+.hero4{
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+button:hover{
+    background-color: rgb(143, 5, 12);
+    color : white;
+}
+
+.email{
+      width:35%;
+      height: 53px;
+      background-color: transparent;
+      color:rgb(255, 255, 255) ;
+      border-radius: 4px;
+      font-size: 1rem;
+      border: 0.5px solid whitesmoke;
+      padding-left: 1.5rem;
+}
+
+.get{
+    width:18%;
+    height: 54px;
+    color: white;
+    background-color: rgb(229, 9, 20) ;
+    border-color: rgb(229,9,20);
+    border-radius: 4px;
+    font-size: 1.4rem;
+    margin-left: .85rem;
+    font-weight: 700;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.one{
+    width: 100%;
+    height: 570px;
+    margin-top: .5rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.enjoy{
+    height: 500px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.enj{
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+ 
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding-left: 2rem;
+}
+
+.watch{
+    color: white;
+ 
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-size: 1.6rem;
+}
+
+
+.home{
+    height: 500px;
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.home img{
+    position: relative;
+    z-index: 10;
+    height: 300px;
+}
+
+.home video{
+    position: absolute;
+    height: 170px;
+    
+}
+
+.rajma{
+    height: 500px;
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.rajma img{
+    position: relative;
+    z-index: 1;
+    height: 300px;
+}
+
+.saif{
+    position: absolute;
+    margin-top: -105px;
+    height: 200px;
+    width: 255px;
+}
+
+.faq{
+    width: 100%;
+    height: 1000px;
+    margin-top: .5rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq h1{
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.faqone{
+    margin-top:1rem;
+    background-color: rgb(45,45,45);
+    color: white;
+    width: 90vw;
+    height: 18vh;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+
+}
+.faqone nav{
+    padding-right: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4rem;
+
+}
+
+.faqone:hover {
+    background-color: #414141;
+    color: white;
+}
+
+
+.hero3 nav{
+    margin-top: 2rem;
+}
+
+
+footer {
+    color: rgba(255,255,255,0.6);
+    width: 100%;
+    height: 410px;
+    background-color: black;
+    margin-top: 0.5rem;
+    
+}
+
+footer .questions {
+    padding-top: 4rem;
+    padding-left: 2rem;
+}
+
+
+.footer {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-item a{
+    margin-bottom: 1rem;
+    color: rgba(255,255,255,0.6);
+}
+
+.lst{
+    margin-top: 1.5rem;
+}
+
+.ind{
+    margin-top: 1rem;
+    color: rgba(255,255,255,0.6);
+}
+
+
+
+
+
+@media screen and (max-width: 975px){
+    .hero4{
+        display: flex;
+        flex-direction: column;
+    flex-wrap: wrap;
+    }
+
+    .get{
+        font-size: 0.9rem;
+        margin-top: 0.7rem;
+    }
+    .enj{
+        font-size: 1.5rem;
+    }
+    .watch{
+        font-size:1rem ;
+    }
+}
+    
+@media screen and (max-width: 650px){
+    .hero1{
+        font-size: 1rem;
+    }
+h3{
+    font-size: 0.8rem;
+}
+    .get{
+       width: 30%;   
+       height: 40px;
+    }
+    .faq h1{
+        font-size: 1.5rem;
+    }
+    .faqone{
+        font-size:0.9rem ;
+    }
+    .faqone nav{
+        font-size: 2rem;
+    }
+    
+}
+@media screen and (max-width:800px){
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.enjoy{
+    width:90vw;
+}
+}
+
+@media screen and (max-width:500px) {
+    .head{
+    display: flex;
+    justify-content: flex-start;
+    font-size: .7em;
+    }
+    .netflix{
+        margin-top: -40px;
+    }
+    .a img{
+        width: 110px;
+    }
+    .language{
+        height: 25px;
+        width: 60px;
+        font-size: 0.7rem;
+    }
+    .sign{
+        width: 60px;
+        height: 25px;
+    }
+    .right{
+        display: flex;
+        align-items: first baseline;
+        justify-content: start;
+        margin-left: -100px;
+        margin-top: 3rem;
+    }
+    .one{
+        display: flex;
+        align-items: center;
+        height: 450px;
+    }
+    .home img{
+        width: 280px;
+        height: 200px;
+    }
+    .home video{
+        width: 210px;
+    }
+    .rajma img{
+        width: 280px;
+        height: 300px;
+    }
+    .rajma video{
+        width: 170px;
+    }
+    .enjoy{
+        margin-bottom: 0px;
+    }
+
+    .footer {
+        padding-left: 2rem;
+        padding-top: 2rem;
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+        font-size: 0.6rem;
+        
+    }
+    .questions {
+        font-size: 0.8rem;
+    }
+    .faq h1{
+          text-align: center;
+          font-size: 1.3rem;
+    }
+    .lst{
+        padding-top: none;
+    }
+    .email{
+        height:30px ;
+        width: 30vw;
+        font-size: 0.6rem;
+    }
+    
+    .get{
+        height:20px ;
+        width: 20vw;
+        font-size: 0.5rem;
+        
+    }
+    button{
+        margin-top: 0.5rem;
+    }
+    .faq{
+        height: 700px;
+    }
+}
